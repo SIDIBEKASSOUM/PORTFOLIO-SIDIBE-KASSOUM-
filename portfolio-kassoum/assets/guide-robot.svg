@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 300" fill="none">
+  <defs>
+    <linearGradient id="shell" x1="61" y1="77" x2="195" y2="274" gradientUnits="userSpaceOnUse"><stop stop-color="#F4FAF9"/><stop offset=".48" stop-color="#BFCFD3"/><stop offset="1" stop-color="#718794"/></linearGradient>
+    <linearGradient id="face" x1="74" y1="99" x2="187" y2="165" gradientUnits="userSpaceOnUse"><stop stop-color="#10283A"/><stop offset="1" stop-color="#07131F"/></linearGradient>
+    <linearGradient id="visor" x1="88" y1="113" x2="172" y2="155" gradientUnits="userSpaceOnUse"><stop stop-color="#AEC1FF"/><stop offset="1" stop-color="#83A0FA"/></linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="matrix(0 128 -112 0 130 152)" gradientUnits="userSpaceOnUse"><stop stop-color="#5276DE" stop-opacity=".2"/><stop offset="1" stop-color="#5276DE" stop-opacity="0"/></radialGradient>
+    <filter id="glow" x="64" y="77" width="132" height="143" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <ellipse cx="130" cy="159" rx="112" ry="128" fill="url(#halo)"/>
+  <path d="M130 45V66" stroke="#B8D2D7" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="130" cy="39" r="10" fill="#5276DE" opacity=".26" filter="url(#glow)"/>
+  <circle cx="130" cy="39" r="6" fill="#5276DE" stroke="#E9FFFF" stroke-width="2"/>
+  <path d="M59 130c0-40 32-72 72-72s72 32 72 72v33H59v-33Z" fill="url(#shell)" stroke="#E6F2F1" stroke-width="2"/>
+  <path d="M49 118c0-9 7-16 16-16h7v59h-7c-9 0-16-7-16-16v-27ZM188 102h7c9 0 16 7 16 16v27c0 9-7 16-16 16h-7v-59Z" fill="#8197A0" stroke="#D9E7E7" stroke-width="2"/>
+  <rect x="67" y="98" width="126" height="74" rx="28" fill="url(#face)" stroke="#DCEBE9" stroke-width="3"/>
+  <path d="M94 133c0-6 4-10 9-10s9 4 9 10-4 10-9 10-9-4-9-10ZM148 133c0-6 4-10 9-10s9 4 9 10-4 10-9 10-9-4-9-10Z" fill="url(#visor)"/>
+  <path d="M116 152h28" stroke="#456474" stroke-width="3" stroke-linecap="round"/>
+  <path d="M111 173v12h38v-12" stroke="#D9E6E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M89 183c-19 10-31 29-31 52v17c0 12 10 22 22 22h100c12 0 22-10 22-22v-17c0-23-12-42-31-52l-17-8h-48l-17 8Z" fill="url(#shell)" stroke="#E2EFEE" stroke-width="3"/>
+  <path d="M106 186h48l14 12-13 22h-50l-13-22 14-12Z" fill="#17374A"/>
+  <path d="m106 186 24 14 24-14" stroke="#5276DE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="100" y="230" width="60" height="22" rx="11" fill="#102A3A"/>
+  <text x="130" y="245" fill="#5276DE" font-family="monospace" font-size="10" letter-spacing="2" text-anchor="middle">NOVA</text>
+  <path d="M69 236H48m143 0h21" stroke="#5276DE" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="45" cy="236" r="4" fill="#5276DE"/><circle cx="215" cy="236" r="4" fill="#5276DE"/>
+  <path d="M103 275v12m54-12v12" stroke="#8CA0A8" stroke-width="6" stroke-linecap="round"/>
+</svg>
